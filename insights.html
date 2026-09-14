@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights &amp; Blog — IGVP | Indigenous Global Venture Partners Inc.</title>
+  <meta name="description" content="Explore IGVP's latest insights, case studies, and engineering perspectives on AI Agents, SKU-level profitability, enterprise cost control, and scalable data intelligence." />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/igvp-logo.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Urbanist:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="insights-page">
+
+  <!-- =====================================================
+       FLOATING PILL HEADER & NAVIGATION (MATCHING IGVP BRAND)
+       ===================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-pill-wrapper">
+      <nav class="nav-pill">
+        <!-- Logo -->
+        <a href="index.html#home" class="brand-logo" id="headerLogo" title="IGVP — Indigenous Global Venture Partners Inc.">
+          <img src="assets/images/igvp-logo.png" alt="IGVP - Indigenous Global Venture Partners Inc." />
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-menu" id="desktopNavMenu">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+
+          <!-- Services with Mega Menu (Pure White Card Style) -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="index.html#services" class="nav-link">
+              Services
+              <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <!-- Mega Menu Panel (Pure White Card with Blue Accents) -->
+            <div class="mega-menu-panel">
+              <!-- Left Column: SERVICES -->
+              <div class="mega-menu-left-col">
+                <div class="mega-menu-heading-label">SERVICES</div>
+                <div class="mega-menu-services-grid">
+                  <a href="index.html#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Data Engineering and Analytics</span>
+                  </a>
+
+                  <a href="index.html#core-platform" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a4 4 0 0 1 4 4c0 .8-.2 1.5-.6 2.1l2.5 2.5A4 4 0 0 1 22 14a4 4 0 0 1-4 4h-1v2a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-2H6a4 4 0 0 1-4-4 4 4 0 0 1 2.1-3.4L6.6 8.1A4 4 0 0 1 6 6a4 4 0 0 1 4-4h2z"></path>
+                        <circle cx="12" cy="12" r="2"></circle>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">IGVP AI - GenAI, AI and ML</span>
+                  </a>
+
+                  <a href="index.html#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Data Governance &amp; Trust</span>
+                  </a>
+
+                  <a href="index.html#industries" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Healthcare Intelligence</span>
+                  </a>
+
+                  <a href="index.html#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Edge PKI &amp; Digital Trust</span>
+                  </a>
+
+                  <a href="index.html#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Technology Consulting</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Column: MULTI-AGENT ORCHESTRATOR PLATFORM -->
+              <div class="mega-menu-right-col">
+                <div class="mega-menu-heading-label">MULTI-AGENT ORCHESTRATOR PLATFORM</div>
+                <div class="mega-menu-orchestrator-box">
+                  <img src="assets/images/Multi-Agent-blue.png" alt="Multi-Agent Platform" class="mega-menu-thumb-img" />
+                  <div class="mega-menu-orchestrator-content">
+                    <h5>Your Environment, Your Platform, Your UI. One Orchestrator Hub for all your Agents</h5>
+                    <a href="index.html#core-platform" class="mega-menu-know-more">
+                      KNOW MORE &rarr;
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="index.html#platforms" class="nav-link">Platforms</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#industries" class="nav-link">Industries</a>
+          </li>
+          <li class="nav-item">
+            <a href="insights.html" class="nav-link active">Insights</a>
+          </li>
+          <li class="nav-item">
+            <a href="careers.html" class="nav-link">Careers</a>
+          </li>
+        </ul>
+
+        <!-- Right CTA Button -->
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <button class="header-cta-btn" id="openContactModalBtn" onclick="openContactModal()">Let's Talk</button>
+
+          <!-- Mobile Hamburger -->
+          <button class="mobile-hamburger" id="mobileHamburgerBtn" aria-label="Open mobile menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7"></line>
+              <line x1="3" y1="17" x2="21" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/igvp-logo.png" alt="IGVP" style="height: 38px;" />
+      <button class="mobile-drawer-close" id="mobileDrawerCloseBtn">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="index.html#services" class="mobile-nav-link">Services</a>
+      <a href="index.html#platforms" class="mobile-nav-link">Platforms</a>
+      <a href="index.html#industries" class="mobile-nav-link">Industries</a>
+      <a href="insights.html" class="mobile-nav-link" style="color: #16D9F2; font-weight: 700;">Insights</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+    </div>
+    <div style="margin-top: auto;">
+      <button class="btn-primary" style="width: 100%;" onclick="openContactModal()">Let's Talk</button>
+    </div>
+  </div>
+
+  <!-- =====================================================
+       MAIN BLOG SECTION (100% 1:1 CLONE OF DATAPHI INSIGHTS PAGE)
+       ===================================================== -->
+  <main class="insights-section-container">
+    <h1 class="insights-heading-title">Blog</h1>
+
+    <!-- 3-Column Grid Matching DataPhi ekit-col-4 Exactly -->
+    <div class="insights-grid-3col">
+
+      <!-- Card 1: SKU-Level Profitability -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('sku-profitability')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/sku-profitability.jpg" alt="The Hidden Profit Story: Turning SKU-Level Data into Business Action" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">The Hidden Profit Story: Turning SKU-Level Data into Business Action</a>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Card 2: The Invisible P&L -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('invisible-pl')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/the-invisible-pl.jpg" alt="The Invisible P&L" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">The Invisible P&amp;L</a>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Card 3: Cost Control -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('cost-control')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/cost-control.jpg" alt="Cost Control : Turning Numbers into Profit Protection" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">Cost Control : Turning Numbers into Profit Protection</a>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Card 4: From LLMs to AI Agents -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('llms-to-agents')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/llms-to-ai-agents.jpg" alt="From LLMs to AI Agents — Why a Prompt Is Not Enough" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">From LLMs to AI Agents — Why a Prompt Is Not Enough</a>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Card 5: Why Most Data and AI Programs Stall -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('programs-stall')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/blog-programs-stall.webp" alt="Why Most Data and AI Programs Stall After the First Win and what it takes to make impact repeatable" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">Why Most Data and AI Programs Stall After the First Win and what it takes to make impact repeatable</a>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Card 6: Turning Data Chaos into Usable Intelligence -->
+      <div class="elementskit-post-image-card" onclick="openArticleModal('data-chaos')">
+        <div class="elementskit-entry-thumb">
+          <a href="javascript:void(0);">
+            <img decoding="async" src="assets/images/blog-discipline-intelligence.webp" alt="The Discipline of Turning Data Chaos into Usable Intelligence" />
+          </a>
+          <span class="elementskit-badge-tag">BLOG</span>
+        </div>
+        <div class="elementskit-post-body">
+          <h2 class="entry-title">
+            <a href="javascript:void(0);">The Discipline of Turning Data Chaos into Usable Intelligence</a>
+          </h2>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- =====================================================
+       DATAPHI HIGH-IMPACT CTA SECTION (BLUE THEME CLONE)
+       ===================================================== -->
+  <section class="before-footer-cta-section">
+    <div class="before-footer-cta-card">
+      <div class="before-footer-cta-left">
+        <span class="before-footer-tag">LET'S TALK</span>
+        <h3 class="before-footer-title">
+          See How Data and AI Can <span>Deliver Results Quickly</span> for Your Business
+        </h3>
+      </div>
+
+      <div class="before-footer-cta-right">
+        <p class="before-footer-desc">Please fill out the form, and our team will get in touch with you!</p>
+        <form class="before-footer-form" onsubmit="handleCtaSubmit(event)">
+          <div class="form-field">
+            <input type="text" placeholder="Your Name*" required />
+          </div>
+          <div class="row-phi">
+            <div class="col-phi">
+              <input type="email" placeholder="Email ID*" required />
+            </div>
+            <div class="col-phi">
+              <input type="tel" placeholder="Contact No.*" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <input type="text" placeholder="Company Name" />
+          </div>
+          <div class="form-field">
+            <textarea rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="SUBMIT" class="before-footer-submit" />
+          </div>
+          <div class="form-toast" id="ctaToast" style="display: none; color: #16D9F2; font-size: 14px; margin-top: 10px;">
+            &#10003; Thank you! Your message has been sent.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       IGVP CORPORATE FOOTER (MATCHING ALL PAGES)
+       ===================================================== -->
+  <footer class="site-footer">
+    <div class="footer-width-fixer">
+      <!-- Row 1: Top 4 Navigation Columns -->
+      <div class="footer-nav-4col">
+        <!-- Col 1: Quick Links -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Quick Links</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="careers.html">Life at IGVP</a></li>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="insights.html">Case Studies</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Services</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html#core-platform">PhAI - GenAI AI and ML</a></li>
+            <li><a href="index.html#solutions">Data Engineering &amp; Analytics</a></li>
+            <li><a href="index.html#solutions">Data Governance</a></li>
+            <li><a href="index.html#solutions">ESG Navigator</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: PhAI / IGVP AI -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">PhAI</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html#core-platform">Multi Agent Ecosystem</a></li>
+            <li><a href="index.html#core-platform">Agentic AI</a></li>
+            <li><a href="index.html#solutions">Accelerated ML Solutions</a></li>
+            <li><a href="index.html#solutions">ML Ops</a></li>
+            <li><a href="index.html#solutions">Responsible AI</a></li>
+            <li><a href="index.html#solutions">AI Maturity Assessment</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: About Us -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">About Us</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="about.html#overview">Overview</a></li>
+            <li><a href="about.html#story">Story Behind the Name</a></li>
+            <li><a href="about.html#purpose">Our Values</a></li>
+            <li><a href="about.html#leadership">Our Leadership</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Row 2: Middle 4 Columns (Brand, US, India, For Business) -->
+      <div class="footer-middle-4col">
+        <!-- Col 1: Brand / Logo -->
+        <div class="footer-mid-brand">
+          <a href="index.html">
+            <img src="assets/images/igvp-logo.png" alt="IGVP Logo" />
+          </a>
+        </div>
+
+        <!-- Col 2: US Office -->
+        <div class="footer-mid-loc">
+          <div class="footer-flag-box">
+            <img src="assets/images/US-flag.svg" alt="US flag" class="footer-flag-img" />
+            <span class="footer-flag-title">US</span>
+          </div>
+          <p class="footer-address-text">
+            Suite 1200, 750 West Pender St, Delaware / Vancouver, USA
+          </p>
+        </div>
+
+        <!-- Col 3: India Office -->
+        <div class="footer-mid-loc">
+          <div class="footer-flag-box">
+            <img src="assets/images/India-flag.svg" alt="India flag" class="footer-flag-img" />
+            <span class="footer-flag-title">India</span>
+          </div>
+          <p class="footer-address-text">
+            2nd Floor, iSprout GreyStone, Veerbhadra Nagar, Baner, Pune – 411045
+          </p>
+        </div>
+
+        <!-- Col 4: For Business -->
+        <div class="footer-mid-business">
+          <h4 class="footer-business-title">For Business</h4>
+          <a href="mailto:info@igvp.ai" class="footer-contact-link">
+            <span class="footer-contact-icon">
+              <img src="assets/images/email-icon-cyan.svg" alt="Email" />
+            </span>
+            <span>info@igvp.ai</span>
+          </a>
+          <a href="tel:+16046012000" class="footer-contact-link">
+            <span class="footer-contact-icon">
+              <img src="assets/images/phone-icon-cyan.svg" alt="Phone" />
+            </span>
+            <span>+1 (604) 601-2000</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Row 3: Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <!-- Left: Copyright & Legal -->
+        <div class="footer-bottom-left">
+          <div class="footer-copy-text">&copy; 2026 IGVP</div>
+          <div class="footer-legal-links">
+            <a href="about.html">Privacy Policy</a>
+            <span class="footer-legal-sep">|</span>
+            <a href="about.html">Terms of Use</a>
+          </div>
+        </div>
+
+        <!-- Center: Headline & Subtitle -->
+        <div class="footer-bottom-center">
+          <h2 class="footer-slogan-title">Data to Decisions — Delivered</h2>
+          <div class="footer-designer-sub">
+            <a href="about.html">Designed by: Kuldip Mahesh Godase</a>
+          </div>
+        </div>
+
+        <!-- Right: Social Links -->
+        <div class="footer-bottom-right">
+          <span class="footer-follow-label">Follow Us:</span>
+          <div class="footer-social-icons">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 21 21" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9037 18.918H15.4893V12.9387C15.4893 11.2985 14.7664 10.3833 13.4698 10.3833C12.0588 10.3833 11.2214 11.3369 11.2214 12.9387V18.918H7.8071V7.8121H11.2214V9.06101C11.2214 9.06101 12.2927 7.17973 14.7066 7.17973C17.1214 7.17973 18.9037 8.65453 18.9037 11.7061V18.918ZM3.91648 6.03594C2.765 6.03594 1.83203 5.09456 1.83203 3.93357C1.83203 2.77343 2.765 1.83203 3.91648 1.83203C5.06711 1.83203 6.00007 2.77343 6.00007 3.93357C6.00092 5.09456 5.06711 6.03594 3.91648 6.03594ZM1.83203 18.918H6.09994V7.8121H1.83203V18.918Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 21 21" fill="none">
+                <path d="M14.2041 2.75C16.4768 2.75 18.3193 4.59256 18.3193 6.86523V15.1357C18.3193 17.4084 16.4768 19.251 14.2041 19.251H5.94727C3.67459 19.251 1.83203 17.4084 1.83203 15.1357V6.86523C1.83203 4.59256 3.67459 2.75 5.94727 2.75H14.2041ZM10.0771 6.875C7.80081 6.875 5.95524 8.7218 5.95508 11C5.95508 13.2783 7.80071 15.126 10.0771 15.126C12.3535 15.1259 14.1992 13.2783 14.1992 11C14.1991 8.72187 12.3534 6.87511 10.0771 6.875ZM15.0234 4.40234C14.113 4.40251 13.375 5.1415 13.375 6.05273C13.3751 6.96385 14.1131 7.70198 15.0234 7.70215C15.9339 7.70215 16.6727 6.96395 16.6729 6.05273C16.6729 5.1414 15.934 4.40234 15.0234 4.40234Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 24 17" fill="none">
+                <path d="M22.9584 2.58149C22.826 2.08212 22.5647 1.62634 22.2009 1.25981C21.837 0.893287 21.3833 0.628883 20.8852 0.493084C19.0575 -1.07263e-07 11.725 0 11.725 0C11.725 0 4.39241 -2.14526e-07 2.56377 0.493984C2.06579 0.629705 1.61217 0.893974 1.24832 1.26033C0.884479 1.62669 0.623182 2.08228 0.490591 2.58149C0.152619 4.45729 -0.0114038 6.36034 0.000616121 8.26636C-0.011409 10.1724 0.152614 12.0754 0.490591 13.9512C0.623837 14.4465 0.885776 14.8977 1.24977 15.2589C1.61376 15.62 2.06682 15.8782 2.56287 16.0072C4.39151 16.5012 11.7241 16.5012 11.7241 16.5012C11.7241 16.5012 19.0566 16.5012 20.8852 16.0072C21.3813 15.8784 21.8345 15.6204 22.1987 15.2594C22.5628 14.8985 22.825 14.4474 22.9584 13.9521C23.2964 12.0763 23.4604 10.1733 23.4484 8.26726C23.4604 6.36124 23.2964 4.45729 22.9584 2.58149ZM9.32632 11.7593V4.77788L15.4551 8.26726L9.32632 11.7566V11.7593Z" fill="#FBFBFB"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================
+       POPUP ARTICLE READER MODAL (RICH READING EXPERIENCE)
+       ===================================================== -->
+  <div class="modal-overlay" id="articleReaderModal">
+    <div class="modal-dialog article-modal-dialog-white">
+      <button class="modal-close-btn" style="color: #0F172A;" onclick="closeArticleModal()">&times;</button>
+      <img src="" alt="" id="readerHeroImg" class="article-modal-hero-img" />
+      <div class="article-modal-meta">
+        <span class="elementskit-badge-tag" style="position: static;" id="readerCategory">BLOG</span>
+        <span style="color: #64748B; font-size: 13px;" id="readerMetaDetails"></span>
+      </div>
+      <h2 class="article-modal-title-white" id="readerTitle"></h2>
+      <div class="article-modal-content-white" id="readerContent">
+        <!-- Dynamically injected article content -->
+      </div>
+      <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #E2E8F0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <button class="btn-primary" onclick="closeArticleModal(); openContactModal();">Discuss With Our Experts &rarr;</button>
+        <button class="btn-light-outline" onclick="closeArticleModal()">Back to All Insights</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================
+       POPUP CONTACT MODAL ("LET'S TALK")
+       ===================================================== -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeContactModal()">&times;</button>
+      <h3 style="font-size: 24px; margin-bottom: 8px;">Start a Conversation With IGVP</h3>
+      <p style="font-size: 14px; color: #94A3B8; margin-bottom: 24px;">Share your requirements and our technology leadership team will get in touch promptly.</p>
+
+      <form onsubmit="handleModalSubmit(event)">
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" class="form-control" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label>Business Email *</label>
+          <input type="email" class="form-control" placeholder="name@company.com" required />
+        </div>
+        <div class="form-group">
+          <label>Organization *</label>
+          <input type="text" class="form-control" placeholder="Company name" required />
+        </div>
+        <div class="form-group">
+          <label>Area of Interest</label>
+          <select class="form-control" style="background: #0b1424; color: #FFF; cursor: pointer;">
+            <option value="ai-ml">AI &amp; Intelligent Systems</option>
+            <option value="data-engineering">Data Engineering &amp; Analytics</option>
+            <option value="healthcare">Healthcare Technology</option>
+            <option value="fintech">Finance &amp; FinTech Automation</option>
+            <option value="edge-pki">Edge PKI &amp; Digital Trust</option>
+            <option value="consulting">Technology Consulting &amp; Architecture</option>
+            <option value="platforms">IGVP Platform Ecosystem</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Brief Message *</label>
+          <textarea class="form-control" placeholder="Tell us how we can help..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Send Message &rarr;</button>
+        <div class="form-toast" id="modalToast">
+          &#10003; Thank you! Your message has been received. Our leadership team will contact you shortly.
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // Articles Database for Instant Interactive Modal Reader
+    const articlesDB = {
+      'sku-profitability': {
+        title: "The Hidden Profit Story: Turning SKU-Level Data into Business Action",
+        category: "BLOG",
+        author: "Sridevi Pydi",
+        readTime: "5 min read",
+        date: "June 2026",
+        image: "assets/images/sku-profitability.jpg",
+        paragraphs: [
+          "Profitability is often reviewed through final numbers — revenue, gross profit, EBITDA, and net profit. These measures are important, but they usually tell only the outcome. The real profitability story is often hidden much deeper.",
+          "It sits inside products, customers, channels, geographies, discounts, trade spend, material costs, packaging costs, overheads, and finance adjustments. For businesses managing large SKU portfolios, this level of visibility is essential because a profitable business at a summary level may still have margin pressure hidden at SKU level.",
+          "This is where SKU-level profitability analytics can create real business value. It helps organizations move beyond static reporting and understand where profit is created, where it is reduced, and where business action is required.",
+          "A product with high sales may not always be a profitable product. By attributing dynamic logistics, returns, channel fees, and storage fees down to the unit level, leadership can rebalance product mixes, terminate value-destroying SKUs, and protect margins against cost volatility."
+        ]
+      },
+      'invisible-pl': {
+        title: "The Invisible P&L",
+        category: "BLOG",
+        author: "IGVP Research",
+        readTime: "6 min read",
+        date: "June 2026",
+        image: "assets/images/the-invisible-pl.jpg",
+        paragraphs: [
+          "A practitioner's perspective on the financial mechanics that distinguish high-performing integrated operations from those that discover their margin problems at year-end.",
+          "There is a particular kind of finance review meeting that most senior leaders will recognise. The consolidated P&L looks reasonable. Revenue is on track. Gross margin is somewhere in the mid-teens. The MD nods, the CFO moves to the next slide. And yet, somewhere in the portfolio, a major contract is quietly bleeding margins in unrecovered labour costs, SLA penalties that operations forgot to flag, and hidden overheads.",
+          "This is not a failure of people. It is a failure of financial architecture. Where labour constitutes anywhere from 60% to 75% of operational cost, the absence of granular financial visibility is not a minor inefficiency. It is an existential risk.",
+          "By deploying continuous operational analytics, resource allocation modeling, and contract-level telemetry, enterprise leaders can catch demand blind spots before financial erosion compounds."
+        ]
+      },
+      'cost-control': {
+        title: "Cost Control : Turning Numbers into Profit Protection",
+        category: "BLOG",
+        author: "IGVP Advisory",
+        readTime: "4 min read",
+        date: "May 2026",
+        image: "assets/images/cost-control.jpg",
+        paragraphs: [
+          "In any business, cost control is not just a financial exercise, it is a strategic function that directly safeguards profitability. Whether in manufacturing, services, technology, or capital infrastructure, the role of cost control is to ensure that expenses stay within approved limits, identify early warning signs of financial risks, and enable timely corrective actions.",
+          "Imagine a company launching a major multi-year initiative. The initial budget is set, but as execution begins, unexpected challenges arise: supplier prices increase, scope expansions occur, or integration delays mount. Without a robust cost control process, these challenges quickly erode margins.",
+          "Management relies on key KPIs — including Earned Value Management (EVM), Cost Variance (CV), Schedule Variance (SV), and dynamic forecast baselines — to stay ahead of cost creep.",
+          "At IGVP, we architect modern data engineering workflows that ingest real-time procurement, vendor billing, and project milestones to turn static financial reports into proactive profit protection engines."
+        ]
+      },
+      'llms-to-agents': {
+        title: "From LLMs to AI Agents — Why a Prompt Is Not Enough",
+        category: "BLOG",
+        author: "IGVP AI Labs",
+        readTime: "7 min read",
+        date: "April 2026",
+        image: "assets/images/llms-to-ai-agents.jpg",
+        paragraphs: [
+          "You have probably used AI assistants like ChatGPT, Claude, or DeepSeek. They are great for everyday work: summarizing documents, explaining logs, writing code snippets, or drafting emails. Under the hood, these assistants are powered by Large Language Models (LLMs).",
+          "If you are like most people, you have also noticed the assistant gets better when you paste in more context: more tables, more documentation, more examples. But there is a ceiling — the point where pasting more context stops being enough.",
+          "That ceiling is where a plain LLM falls short and an autonomous Agent takes over. To be truly useful in a business context, an assistant must retrieve the right context automatically (fetching live data rather than static snapshots), take actions through tools (calling APIs, querying databases, updating records), and maintain persistent state.",
+          "IGVP's Multi-Agent Orchestrator Platform enables organizations to build, orchestrate, and observe autonomous agent swarms with enterprise-grade guardrails, auditable trails, and secure private execution."
+        ]
+      },
+      'programs-stall': {
+        title: "Why Most Data and AI Programs Stall After the First Win and what it takes to make impact repeatable",
+        category: "BLOG",
+        author: "Enterprise Strategy",
+        readTime: "6 min read",
+        date: "January 2026",
+        image: "assets/images/blog-programs-stall.webp",
+        paragraphs: [
+          "There is a familiar pattern in enterprises: lots of pilots, lots of demos, a few success stories, and very little repeatable business impact. Industry research predicts a meaningful chunk of GenAI projects will get dropped after proof-of-concept because of basic blockers like data quality, weak risk controls, cost blow-ups, and unclear business value.",
+          "So the problem isn't 'can we build a demo?' The problem is 'can we run it in production at scale?'",
+          "Here is how it usually plays out: A central innovation team builds something smart. A pilot group uses it. Everyone sees a lift. The program gets applause. But scaling breaks down because of operating discipline, data architecture debt, and lack of integration with core transactional systems.",
+          "To make impact repeatable, enterprises need robust governance, continuous feedback loops, unified data pipelines, and clear product ownership rather than one-off experiments."
+        ]
+      },
+      'data-chaos': {
+        title: "The Discipline of Turning Data Chaos into Usable Intelligence",
+        category: "BLOG",
+        author: "IGVP Leadership",
+        readTime: "5 min read",
+        date: "January 2026",
+        image: "assets/images/blog-discipline-intelligence.webp",
+        paragraphs: [
+          "When teams talk about 'bringing structure,' people sometimes assume it means slowing things down — more process, more committees, more slides. Honestly, that can happen. Too much structure freezes progress. Too little structure creates chaos. Balance is the difference.",
+          "In real enterprise data and AI work, balance exists across four fundamental tensions: Structure vs. Speed, Simplicity vs. Detail, Precision vs. Flexibility, and Innovation vs. Control.",
+          "If you move too fast without structure, you end up rebuilding the same pipelines, definitions, and logic again and again. Move too slowly and the business loses momentum.",
+          "At IGVP, we focus on 'usable intelligence' — data systems, AI models, and software platforms engineered to fit how people and organizations actually work in the real world."
+        ]
+      }
+    };
+
+    function openArticleModal(key) {
+      const art = articlesDB[key];
+      if (!art) return;
+      document.getElementById('readerHeroImg').src = art.image;
+      document.getElementById('readerHeroImg').alt = art.title;
+      document.getElementById('readerCategory').textContent = art.category;
+      document.getElementById('readerMetaDetails').textContent = `${art.author} • ${art.date} • ${art.readTime}`;
+      document.getElementById('readerTitle').textContent = art.title;
+      
+      const contentEl = document.getElementById('readerContent');
+      contentEl.innerHTML = art.paragraphs.map(p => `<p>${p}</p>`).join('');
+      
+      document.getElementById('articleReaderModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeArticleModal() {
+      document.getElementById('articleReaderModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // CTA Form Handler
+    function handleCtaSubmit(e) {
+      e.preventDefault();
+      const toast = document.getElementById('ctaToast');
+      toast.style.display = 'block';
+      e.target.reset();
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 5000);
+    }
+
+    // Close on overlay click or Escape
+    document.getElementById('articleReaderModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeArticleModal();
+      }
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeArticleModal();
+        closeContactModal();
+      }
+    });
+  </script>
+</body>
+</html>

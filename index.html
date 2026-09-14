@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - IGVP | Building Intelligent Platforms for a Digital World</title>
+  <meta name="description" content="IGVP — Indigenous Global Venture Partners Inc. combines AI, data engineering, cybersecurity, finance technology and domain expertise to build intelligent solutions for modern organizations." />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/igvp-logo.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Urbanist:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- =====================================================
+       1. FLOATING PILL HEADER & NAVIGATION
+       ===================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-pill-wrapper">
+      <nav class="nav-pill">
+        <!-- Logo -->
+        <a href="#home" class="brand-logo" id="headerLogo" title="IGVP — Indigenous Global Venture Partners Inc.">
+          <img src="assets/images/igvp-logo.png" alt="IGVP - Indigenous Global Venture Partners Inc." />
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-menu" id="desktopNavMenu">
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+
+          <!-- Services with Mega Menu -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="#services" class="nav-link">
+              Services
+              <svg class="dropdown-arrow" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <!-- Mega Menu Panel (IGVP Blue Theme) -->
+            <div class="mega-menu-panel">
+              <!-- Left Column: SERVICES -->
+              <div class="mega-menu-left-col">
+                <div class="mega-menu-heading-label">SERVICES</div>
+                <div class="mega-menu-services-grid">
+                  <a href="#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Data Engineering and Analytics</span>
+                  </a>
+
+                  <a href="#core-platform" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a4 4 0 0 1 4 4c0 .8-.2 1.5-.6 2.1l2.5 2.5A4 4 0 0 1 22 14a4 4 0 0 1-4 4h-1v2a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-2H6a4 4 0 0 1-4-4 4 4 0 0 1 2.1-3.4L6.6 8.1A4 4 0 0 1 6 6a4 4 0 0 1 4-4h2z"></path>
+                        <circle cx="12" cy="12" r="2"></circle>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">IGVP AI - GenAI, AI and ML</span>
+                  </a>
+
+                  <a href="#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Data Governance &amp; Trust</span>
+                  </a>
+
+                  <a href="#industries" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Healthcare Intelligence</span>
+                  </a>
+
+                  <a href="#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Edge PKI &amp; Digital Trust</span>
+                  </a>
+
+                  <a href="#services" class="mega-menu-service-card">
+                    <div class="mega-menu-icon-square">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                      </svg>
+                    </div>
+                    <span class="mega-menu-service-name">Technology Consulting</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Column: MULTI-AGENT ORCHESTRATOR PLATFORM -->
+              <div class="mega-menu-right-col">
+                <div class="mega-menu-heading-label">MULTI-AGENT ORCHESTRATOR PLATFORM</div>
+                <div class="mega-menu-orchestrator-box">
+                  <img src="assets/images/Multi-Agent-blue.png" alt="Multi-Agent Platform" class="mega-menu-thumb-img" />
+                  <div class="mega-menu-orchestrator-content">
+                    <h5>Your Environment, Your Platform, Your UI. One Orchestrator Hub for all your Agents</h5>
+                    <a href="#core-platform" class="mega-menu-know-more">
+                      KNOW MORE &rarr;
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a href="#platforms" class="nav-link">Platforms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#industries" class="nav-link">Industries</a>
+          </li>
+          <li class="nav-item">
+            <a href="insights.html" class="nav-link">Insights</a>
+          </li>
+          <li class="nav-item">
+            <a href="careers.html" class="nav-link">Careers</a>
+          </li>
+        </ul>
+
+        <!-- Right CTA Button -->
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <button class="header-cta-btn" id="openContactModalBtn" onclick="openContactModal()">Let's Talk</button>
+
+          <!-- Mobile Hamburger -->
+          <button class="mobile-hamburger" id="mobileHamburgerBtn" aria-label="Open mobile menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7"></line>
+              <line x1="3" y1="17" x2="21" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/images/igvp-logo.png" alt="IGVP" style="height: 38px;" />
+      <button class="mobile-drawer-close" id="mobileDrawerCloseBtn">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#platforms" class="mobile-nav-link">Platforms</a>
+      <a href="#industries" class="mobile-nav-link">Industries</a>
+      <a href="insights.html" class="mobile-nav-link">Insights</a>
+      <a href="careers.html" class="mobile-nav-link">Careers</a>
+    </div>
+    <div style="margin-top: auto;">
+      <button class="btn-primary" style="width: 100%;" onclick="openContactModal()">Let's Talk</button>
+    </div>
+  </div>
+
+  <!-- =====================================================
+       2. HERO SECTION & 5-SLIDE CAROUSEL (DARK THEME)
+       ===================================================== -->
+  <section class="hero-section" id="home">
+    <!-- Arrow Controls -->
+    <button class="hero-nav-arrow prev-arrow" id="heroPrevBtn" aria-label="Previous Slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="hero-nav-arrow next-arrow" id="heroNextBtn" aria-label="Next Slide">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+
+    <div class="hero-slider-container">
+      <div class="hero-slides-wrapper" id="heroSlidesWrapper">
+
+        <!-- Slide 1 -->
+        <div class="hero-slide active" data-slide="0">
+          <h1>Building Intelligent Platforms <br /><strong>for a Digital World.</strong></h1>
+          <p class="hero-slide-desc">
+            IGVP combines artificial intelligence, data engineering, cybersecurity, finance technology and domain expertise to build intelligent solutions for organizations ready to transform how they operate, decide and grow.
+          </p>
+          <div class="hero-slide-actions">
+            <a href="#about" class="btn-primary">Discover IGVP &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide" data-slide="1">
+          <h1>From AI Possibilities to <br /><strong>Real-World Intelligence.</strong></h1>
+          <p class="hero-slide-desc">
+            AI becomes valuable when it solves real problems. IGVP combines Generative AI, Agentic AI, Machine Learning and enterprise data to create intelligent systems designed for practical business outcomes.
+          </p>
+          <div class="hero-slide-actions">
+            <a href="#core-platform" class="btn-primary">Explore IGVP AI &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide" data-slide="2">
+          <h1>Your Data Is the Foundation <br /><strong>of Your Intelligence.</strong></h1>
+          <p class="hero-slide-desc">
+            Organizations generate data across applications, platforms and environments. IGVP builds reliable data foundations that connect information, improve visibility and create the foundation for advanced analytics and AI.
+          </p>
+          <div class="hero-slide-actions">
+            <a href="#solutions" class="btn-primary">Explore Data Engineering &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="hero-slide" data-slide="3">
+          <h1>Secure Every Edge. <br /><strong>Trust Every Connection.</strong></h1>
+          <p class="hero-slide-desc">
+            Connected organizations need trusted digital identities. IGVP helps secure devices, applications and distributed environments through Edge PKI, digital identity and cybersecurity solutions.
+          </p>
+          <div class="hero-slide-actions">
+            <a href="#solutions" class="btn-primary">Explore Edge PKI &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="hero-slide" data-slide="4">
+          <h1>One Ecosystem. Multiple Platforms. <br /><strong>Global Possibilities.</strong></h1>
+          <p class="hero-slide-desc">
+            From AI and finance to healthcare, data engineering and digital trust, IGVP is building a growing ecosystem of technology platforms and products designed to solve complex problems across industries.
+          </p>
+          <div class="hero-slide-actions">
+            <a href="#platforms" class="btn-primary">Explore the IGVP Ecosystem &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 5 Bottom Interactive Tabs -->
+    <div class="hero-tabs-nav" id="heroTabsNav">
+      <div class="hero-tab-item active" data-tab="0">
+        <span class="hero-tab-num">01 / 05</span>
+        <span class="hero-tab-title">Building Intelligent Platforms</span>
+        <div class="hero-tab-progress"></div>
+      </div>
+      <div class="hero-tab-item" data-tab="1">
+        <span class="hero-tab-num">02 / 05</span>
+        <span class="hero-tab-title">AI Built for Real Outcomes</span>
+        <div class="hero-tab-progress"></div>
+      </div>
+      <div class="hero-tab-item" data-tab="2">
+        <span class="hero-tab-num">03 / 05</span>
+        <span class="hero-tab-title">Data &rarr; Intelligence</span>
+        <div class="hero-tab-progress"></div>
+      </div>
+      <div class="hero-tab-item" data-tab="3">
+        <span class="hero-tab-num">04 / 05</span>
+        <span class="hero-tab-title">Digital Trust at the Edge</span>
+        <div class="hero-tab-progress"></div>
+      </div>
+      <div class="hero-tab-item" data-tab="4">
+        <span class="hero-tab-num">05 / 05</span>
+        <span class="hero-tab-title">The IGVP Platform Ecosystem</span>
+        <div class="hero-tab-progress"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       3. CORE / FLAGSHIP PLATFORM (IGVP AI)
+       ===================================================== -->
+  <section class="phai-section" id="core-platform">
+    <div class="container">
+      <div class="phai-highlight-card">
+        <div>
+          <span class="badge-tag">Your Technology Partner in Data, AI &amp; Digital Transformation</span>
+          <h2 style="font-size: 38px; color: #FFFFFF; margin-bottom: 16px;">
+            IGVP AI &ndash; <span class="text-gradient">Intelligence Beyond Automation</span>
+          </h2>
+          <p style="color: #94A3B8; font-size: 16px; line-height: 1.7; margin-bottom: 24px;">
+            The next generation of enterprise technology goes beyond chatbots and basic automation. IGVP AI brings together Generative AI, Agentic AI, Machine Learning, enterprise data and intelligent workflows to help organizations understand information, make decisions and execute complex processes.
+          </p>
+
+          <div class="phai-accordion-list">
+            <div class="phai-acc-item">
+              <span class="phai-acc-title">01 &bull; Agentic AI</span>
+              <p style="color: #64748B; font-size: 13.5px; margin-top: 4px;">Intelligent agents that can reason, retrieve information, collaborate and execute business workflows.</p>
+            </div>
+            <div class="phai-acc-item">
+              <span class="phai-acc-title">02 &bull; Generative AI</span>
+              <p style="color: #64748B; font-size: 13.5px; margin-top: 4px;">Enterprise-ready AI applications grounded in organizational knowledge and data.</p>
+            </div>
+            <div class="phai-acc-item">
+              <span class="phai-acc-title">03 &bull; Machine Learning</span>
+              <p style="color: #64748B; font-size: 13.5px; margin-top: 4px;">Predictive intelligence that identifies patterns, forecasts outcomes and supports better decisions.</p>
+            </div>
+            <div class="phai-acc-item">
+              <span class="phai-acc-title">04 &bull; AI Engineering &amp; MLOps</span>
+              <p style="color: #64748B; font-size: 13.5px; margin-top: 4px;">Production-ready AI systems with deployment, monitoring, governance and continuous improvement.</p>
+            </div>
+            <div class="phai-acc-item">
+              <span class="phai-acc-title">05 &bull; Enterprise Intelligence</span>
+              <p style="color: #64748B; font-size: 13.5px; margin-top: 4px;">Connect AI with enterprise data, applications and workflows to turn intelligence into action.</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 28px;">
+            <a href="#contact" class="btn-primary" onclick="openContactModal()">Explore IGVP AI &rarr;</a>
+          </div>
+        </div>
+
+        <div style="text-align: center;">
+          <img src="assets/images/Multi-Agent.webp" alt="IGVP AI Platform" style="border-radius: 16px; box-shadow: 0 20px 48px rgba(0, 118, 255, 0.25); border: 1px solid rgba(0, 118, 255, 0.3);" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       4. SUCCESS / IMPACT BANNER (LIGHT THEME)
+       ===================================================== -->
+  <section class="success-stories-light-section" id="impact">
+    <div class="container">
+      <div class="light-section-header">
+        <h2>Technology Built for <span>Real Impact</span></h2>
+        <a href="#solutions" class="btn-light-outline">Explore Our Solutions</a>
+      </div>
+
+      <div class="banner-case-study-card">
+        <img src="assets/images/Semi-Government.webp" alt="IGVP Real Impact Showcase" />
+        <div class="banner-case-study-overlay">
+          <p style="font-size: 18px; line-height: 1.6; margin-bottom: 16px;">
+            From fragmented data to intelligent decisions. From complex technology challenges to scalable platforms. IGVP builds solutions designed to create meaningful operational and business impact.
+          </p>
+
+          <div class="impact-flow-pills">
+            <span class="impact-step-pill">Data</span>
+            <span class="impact-step-arrow">&rarr;</span>
+            <span class="impact-step-pill">Intelligence</span>
+            <span class="impact-step-arrow">&rarr;</span>
+            <span class="impact-step-pill">Action</span>
+            <span class="impact-step-arrow">&rarr;</span>
+            <span class="impact-step-pill" style="border-color: #1769FF; background: rgba(23, 105, 255, 0.25); color: #16D9F2;">Impact</span>
+          </div>
+
+          <button class="btn-outline" style="border-color: #16D9F2; color: #16D9F2;" onclick="openContactModal()">Explore Our Solutions &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       5. INDUSTRY EXPERTISE & SOLUTIONS (DARK THEME)
+       ===================================================== -->
+  <section class="industries-dark-section" id="industries">
+    <div class="container">
+      <h2>Our <strong>Technology Expertise</strong> Across Industries</h2>
+      <p style="color: #94A3B8; font-size: 16px; margin-top: -16px; margin-bottom: 36px;">
+        We combine technology expertise with domain understanding to solve complex problems across industries.
+      </p>
+
+      <div class="industry-tabs-pill" id="industryFilterPill">
+        <button class="ind-tab-btn active" data-ind="healthcare">Healthcare</button>
+        <button class="ind-tab-btn" data-ind="finance">Finance</button>
+        <button class="ind-tab-btn" data-ind="enterprise">Enterprise</button>
+        <button class="ind-tab-btn" data-ind="government">Government &amp; Public Sector</button>
+        <button class="ind-tab-btn" data-ind="technology">Technology &amp; Startups</button>
+      </div>
+
+      <div class="industry-showcase-box" id="industryShowcaseBox">
+        <div class="industry-showcase-img">
+          <img id="indImg" src="assets/images/Semi-Government.webp" alt="Industry Case" />
+        </div>
+        <div class="industry-showcase-content">
+          <h3 id="indTitle">Building Intelligent Healthcare Systems with Data &amp; AI</h3>
+          <p id="indDesc">Connect healthcare data, workflows and intelligence to improve operational visibility, enable analytics and support better decision-making.</p>
+
+          <p style="color: #16D9F2; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Domain Expertise &amp; Focus:</p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px;" id="indTags">
+            <span style="color: #94A3B8; font-size: 13px;">&bull; Healthcare AI</span>
+            <span style="color: #94A3B8; font-size: 13px;">&bull; Healthcare Analytics</span>
+            <span style="color: #94A3B8; font-size: 13px;">&bull; Data Engineering</span>
+            <span style="color: #94A3B8; font-size: 13px;">&bull; Intelligent Workflows</span>
+          </div>
+
+          <button class="btn-outline" id="indCtaBtn" onclick="openContactModal()">Explore Healthcare &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       6. TRUST / TESTIMONIAL SECTION (LIGHT THEME)
+       ===================================================== -->
+  <section class="testimonials-light-section" id="testimonials">
+    <div class="container">
+      <h2>Trusted to Build <strong>What's Next.</strong></h2>
+      <p style="color: #64748B; font-size: 16px; margin-top: -32px; margin-bottom: 48px;">
+        Strong technology partnerships are built on trust, execution and meaningful outcomes.
+      </p>
+
+      <div class="testi-light-cards-carousel">
+        <!-- Card 1 -->
+        <div class="testi-light-card">
+          <div>
+            <div style="font-size: 40px; color: var(--color-primary); line-height: 1; margin-bottom: 12px; font-family: Georgia, serif;">&ldquo;</div>
+            <p class="testi-quote-body" style="font-style: italic; color: #475569;">
+              [Verified IGVP client testimonial highlighting technology execution, architectural clarity, and business impact will appear here upon authorization.]
+            </p>
+          </div>
+          <div class="testi-quote-author">
+            <h4>Client Partner</h4>
+            <p>Technology Leadership | Enterprise Partner</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="testi-light-card">
+          <div>
+            <div style="font-size: 40px; color: var(--color-primary); line-height: 1; margin-bottom: 12px; font-family: Georgia, serif;">&ldquo;</div>
+            <p class="testi-quote-body" style="font-style: italic; color: #475569;">
+              [Verified IGVP client testimonial detailing delivery excellence across artificial intelligence, data engineering, and secure infrastructure.]
+            </p>
+          </div>
+          <div class="testi-quote-author">
+            <h4>Digital Transformation Lead</h4>
+            <p>Executive Director | Financial Services Partner</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="testi-light-card">
+          <div>
+            <div style="font-size: 40px; color: var(--color-primary); line-height: 1; margin-bottom: 12px; font-family: Georgia, serif;">&ldquo;</div>
+            <p class="testi-quote-body" style="font-style: italic; color: #475569;">
+              [Verified IGVP client testimonial on building scalable digital platforms, modern cloud architectures, and operational resilience.]
+            </p>
+          </div>
+          <div class="testi-quote-author">
+            <h4>Chief Technology Officer</h4>
+            <p>Global Innovation &amp; Venture Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       7. WHAT SETS IGVP APART (DARK THEME)
+       ===================================================== -->
+  <section class="differentiators-dark-section" id="why-us">
+    <div class="container">
+      <div class="diff-dark-layout">
+        <div>
+          <h2 style="font-size: 42px; margin-bottom: 16px;">What <strong>Sets IGVP Apart?</strong></h2>
+          <p style="color: #94A3B8; font-size: 16px; line-height: 1.7;">
+            We bring technology, intelligence and venture thinking together to create solutions that move organizations from complex problems to practical outcomes.
+          </p>
+
+          <div class="diff-timeline-list">
+            <div class="diff-timeline-item">
+              <div class="diff-timeline-icon">&#9881;</div>
+              <div class="diff-timeline-text">
+                <h4>01 &mdash; Deep Technology Expertise</h4>
+                <p>AI, Machine Learning, Data Engineering, Cybersecurity, Edge PKI, Software Engineering and enterprise technology under one ecosystem.</p>
+              </div>
+            </div>
+
+            <div class="diff-timeline-item">
+              <div class="diff-timeline-icon">&#9889;</div>
+              <div class="diff-timeline-text">
+                <h4>02 &mdash; AI Built for Real Problems</h4>
+                <p>We focus on intelligent systems that integrate into real workflows and deliver practical value.</p>
+              </div>
+            </div>
+
+            <div class="diff-timeline-item">
+              <div class="diff-timeline-icon">&#10003;</div>
+              <div class="diff-timeline-text">
+                <h4>03 &mdash; Strong Data. Strong Intelligence.</h4>
+                <p>We engineer trusted data foundations that enable reliable analytics, AI and intelligent applications.</p>
+              </div>
+            </div>
+
+            <div class="diff-timeline-item">
+              <div class="diff-timeline-icon">&#128274;</div>
+              <div class="diff-timeline-text">
+                <h4>04 &mdash; Trust Built Into the Architecture</h4>
+                <p>Digital identity, PKI, security and resilience are considered from the beginning rather than added later.</p>
+              </div>
+            </div>
+
+            <div class="diff-timeline-item">
+              <div class="diff-timeline-icon">&#128640;</div>
+              <div class="diff-timeline-text">
+                <h4>05 &mdash; More Than Services</h4>
+                <p>IGVP combines technology solutions with an expanding ecosystem of proprietary products and platforms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="diff-illustration-card">
+          <div style="background: rgba(23, 105, 255, 0.1); width: 100%; height: 260px; border-radius: 16px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(22, 217, 242, 0.35);">
+            <svg width="120" height="120" viewBox="0 0 100 100" fill="none">
+              <circle cx="50" cy="50" r="42" stroke="#16D9F2" stroke-width="2" />
+              <circle cx="50" cy="50" r="28" stroke="#1769FF" stroke-width="1.5" stroke-dasharray="4 4" />
+              <circle cx="50" cy="50" r="14" fill="rgba(23, 105, 255, 0.25)" stroke="#19AFFF" stroke-width="1.5" />
+              <line x1="50" y1="8" x2="50" y2="92" stroke="rgba(22, 217, 242, 0.6)" stroke-width="1.5" />
+              <line x1="8" y1="50" x2="92" y2="50" stroke="rgba(22, 217, 242, 0.6)" stroke-width="1.5" />
+            </svg>
+          </div>
+          <h3 style="color: #16D9F2; font-size: 26px; font-weight: 700; margin-top: 24px;">IGVP</h3>
+          <p style="color: #E2E8F0; font-size: 15px; font-weight: 600; margin-top: 8px;">Technology &times; Intelligence &times; Trust &times; Impact</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       8. TECHNOLOGY EXPERTISE (LIGHT THEME)
+       ===================================================== -->
+  <section class="tech-expertise-light-section" id="services">
+    <div class="container">
+      <h2>Our <strong>Technology Expertise</strong></h2>
+      <p style="color: #64748B; font-size: 16px; margin-top: -32px; margin-bottom: 24px;">
+        The technologies and engineering capabilities powering the IGVP ecosystem.
+      </p>
+
+      <div class="tech-categories-grid">
+        <!-- AI & Machine Learning -->
+        <div class="tech-cat-box">
+          <h4>AI &amp; Machine Learning</h4>
+          <div class="tech-pills-wrap">
+            <span class="tech-pill">Generative AI</span>
+            <span class="tech-pill">Agentic AI</span>
+            <span class="tech-pill">Machine Learning</span>
+            <span class="tech-pill">Deep Learning</span>
+            <span class="tech-pill">NLP</span>
+            <span class="tech-pill">Computer Vision</span>
+            <span class="tech-pill">MLOps</span>
+            <span class="tech-pill">AI Agents</span>
+          </div>
+        </div>
+
+        <!-- Data -->
+        <div class="tech-cat-box">
+          <h4>Data Foundations</h4>
+          <div class="tech-pills-wrap">
+            <span class="tech-pill">Data Engineering</span>
+            <span class="tech-pill">Data Architecture</span>
+            <span class="tech-pill">Data Integration</span>
+            <span class="tech-pill">Data Pipelines</span>
+            <span class="tech-pill">Data Warehousing</span>
+            <span class="tech-pill">Data Lakes</span>
+            <span class="tech-pill">Lakehouse</span>
+            <span class="tech-pill">Data Quality</span>
+            <span class="tech-pill">Data Governance</span>
+            <span class="tech-pill">Real-Time Data</span>
+          </div>
+        </div>
+
+        <!-- Cloud & Platform -->
+        <div class="tech-cat-box">
+          <h4>Cloud &amp; Platform</h4>
+          <div class="tech-pills-wrap">
+            <span class="tech-pill">Cloud Architecture</span>
+            <span class="tech-pill">Cloud-Native Apps</span>
+            <span class="tech-pill">Distributed Systems</span>
+            <span class="tech-pill">Platform Engineering</span>
+            <span class="tech-pill">DevOps</span>
+            <span class="tech-pill">API Architecture</span>
+            <span class="tech-pill">Microservices</span>
+          </div>
+        </div>
+
+        <!-- Cybersecurity & Trust -->
+        <div class="tech-cat-box">
+          <h4>Cybersecurity &amp; Trust</h4>
+          <div class="tech-pills-wrap">
+            <span class="tech-pill">PKI</span>
+            <span class="tech-pill">Digital Certificates</span>
+            <span class="tech-pill">Device Identity</span>
+            <span class="tech-pill">Digital Identity</span>
+            <span class="tech-pill">Zero Trust</span>
+            <span class="tech-pill">Edge Security</span>
+            <span class="tech-pill">Secure Comms</span>
+          </div>
+        </div>
+
+        <!-- Analytics -->
+        <div class="tech-cat-box">
+          <h4>Analytics</h4>
+          <div class="tech-pills-wrap">
+            <span class="tech-pill">Business Intelligence</span>
+            <span class="tech-pill">Predictive Analytics</span>
+            <span class="tech-pill">Data Visualization</span>
+            <span class="tech-pill">Decision Intelligence</span>
+            <span class="tech-pill">Enterprise Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       9. THE IGVP PLATFORM ECOSYSTEM (DARK THEME)
+       ===================================================== -->
+  <section class="platforms-dark-section" id="platforms">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
+        <span class="badge-tag">Proprietary Product &amp; Innovation Suite</span>
+        <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 16px;">The IGVP <strong>Platform Ecosystem</strong></h2>
+        <p style="color: #94A3B8; font-size: 16px; line-height: 1.7;">
+          Technology products and intelligent platforms built to solve real problems across industries.
+        </p>
+      </div>
+
+      <div class="platforms-5grid">
+        <!-- Platform 1: IGVP AI -->
+        <div class="platform-card">
+          <div>
+            <span class="platform-badge">Flagship AI</span>
+            <h3>IGVP AI</h3>
+            <h4 class="platform-tagline">Intelligence Beyond Automation</h4>
+            <p>An intelligent technology platform bringing together Generative AI, Agentic AI, Machine Learning and enterprise intelligence.</p>
+          </div>
+          <a href="#core-platform" class="platform-link">Explore IGVP AI &rarr;</a>
+        </div>
+
+        <!-- Platform 2: IGVP Institute -->
+        <div class="platform-card">
+          <div>
+            <span class="platform-badge">Knowledge &amp; Innovation</span>
+            <h3>IGVP Institute</h3>
+            <h4 class="platform-tagline">Learn. Build. Innovate.</h4>
+            <p>A technology and innovation ecosystem focused on AI, data, cybersecurity, finance technology, healthcare technology and emerging technologies.</p>
+          </div>
+          <a href="#contact" class="platform-link" onclick="openContactModal()">Explore IGVP Institute &rarr;</a>
+        </div>
+
+        <!-- Platform 3: IGVP Finance -->
+        <div class="platform-card">
+          <div>
+            <span class="platform-badge">FinTech Intelligence</span>
+            <h3>IGVP Finance</h3>
+            <h4 class="platform-tagline">Intelligent Finance Operations</h4>
+            <p>A technology ecosystem designed around financial intelligence, reconciliation, settlement, cash visibility, forecasting and finance automation.</p>
+          </div>
+          <a href="#contact" class="platform-link" onclick="openContactModal()">Explore IGVP Finance &rarr;</a>
+        </div>
+
+        <!-- Platform 4: BharatSheild AI -->
+        <div class="platform-card">
+          <div>
+            <span class="platform-badge">Business Workflows</span>
+            <h3>BharatSheild AI</h3>
+            <h4 class="platform-tagline">Intelligent Business Experiences</h4>
+            <p>A platform focused on connecting technology, intelligence and business workflows.</p>
+          </div>
+          <a href="#contact" class="platform-link" onclick="openContactModal()">Explore BharatSheild AI &rarr;</a>
+        </div>
+
+        <!-- Platform 5: VivoQuest -->
+        <div class="platform-card">
+          <div>
+            <span class="platform-badge">Discovery &amp; Knowledge</span>
+            <h3>VivoQuest</h3>
+            <h4 class="platform-tagline">Discover. Connect. Solve.</h4>
+            <p>An intelligent discovery and knowledge platform designed to connect information, intelligence and decision-making.</p>
+          </div>
+          <a href="#contact" class="platform-link" onclick="openContactModal()">Explore VivoQuest &rarr;</a>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <p style="color: #94A3B8; font-size: 16px; margin-bottom: 16px;">One Ecosystem. Many Possibilities.</p>
+        <a href="#contact" class="btn-primary" onclick="openContactModal()">Explore All IGVP Platforms &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       10. LIFE AT IGVP (LIGHT THEME)
+       ===================================================== -->
+  <section class="life-dataphi-light-section" id="life-igvp">
+    <div class="container">
+      <div class="light-section-header" style="text-align: center; display: block;">
+        <h2 style="font-size: 38px;">Life at <strong>IGVP</strong></h2>
+        <p style="color: #64748B; margin-top: 8px;">A glimpse into the people, ideas and culture behind the technology we build.</p>
+      </div>
+
+      <div class="life-videos-grid">
+        <div class="life-video-card" style="cursor: default;">
+          <div class="life-video-thumb">
+            <img src="assets/images/Semi-Government.webp" alt="Build at IGVP" />
+            <div class="life-video-badge">BUILD &bull; Inside IGVP</div>
+          </div>
+          <div style="padding: 24px; background: #FFF;">
+            <h4 style="font-size: 18px; font-weight: 700; color: #0F172A; margin-bottom: 8px;">BUILD</h4>
+            <p style="color: #475569; font-size: 14.5px; line-height: 1.6;">We turn complex problems and ambitious ideas into technology that works.</p>
+          </div>
+        </div>
+
+        <div class="life-video-card" style="cursor: default;">
+          <div class="life-video-thumb">
+            <img src="assets/images/Retail.webp" alt="Innovate at IGVP" />
+            <div class="life-video-badge">INNOVATE &bull; Innovation in Action</div>
+          </div>
+          <div style="padding: 24px; background: #FFF;">
+            <h4 style="font-size: 18px; font-weight: 700; color: #0F172A; margin-bottom: 8px;">INNOVATE</h4>
+            <p style="color: #475569; font-size: 14.5px; line-height: 1.6;">We explore emerging technologies and build platforms that can shape what comes next.</p>
+          </div>
+        </div>
+
+        <div class="life-video-card" style="cursor: default;">
+          <div class="life-video-thumb">
+            <img src="assets/images/Real-Estate.webp" alt="Grow at IGVP" />
+            <div class="life-video-badge">GROW &bull; Team Stories</div>
+          </div>
+          <div style="padding: 24px; background: #FFF;">
+            <h4 style="font-size: 18px; font-weight: 700; color: #0F172A; margin-bottom: 8px;">GROW</h4>
+            <p style="color: #475569; font-size: 14.5px; line-height: 1.6;">We create an environment where people learn, collaborate and build meaningful technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       11. INSIGHTS THAT DRIVE INNOVATION (LIGHT THEME)
+       ===================================================== -->
+  <section class="insights-light-section" id="insights">
+    <div class="container">
+      <div class="light-section-header" style="margin-bottom: 48px;">
+        <div>
+          <h2>Insights <strong>That <br />Drive Innovation</strong></h2>
+          <p style="color: #64748B; margin-top: 8px;">Explore ideas, technologies and strategies shaping the future of AI, data, finance, healthcare and digital trust.</p>
+        </div>
+        <a href="#contact" class="btn-light-outline" onclick="openContactModal()">Explore All Insights</a>
+      </div>
+
+      <div class="insights-five-cards-grid">
+        <!-- Article 1 -->
+        <div class="insight-white-card">
+          <div class="insight-banner-img">
+            <img src="assets/images/sku-profitability.jpg" alt="Agentic AI" />
+            <span class="insight-category-badge">AI / ML</span>
+          </div>
+          <div class="insight-white-body">
+            <h3>From Generative AI to Agentic AI: The Next Enterprise Intelligence Layer</h3>
+            <p>How organizations can move beyond conversational AI toward intelligent agents that understand context, work with enterprise data and execute meaningful workflows.</p>
+            <a href="#contact" style="color: var(--color-primary); font-weight: 600;" onclick="openContactModal()">Read More &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="insight-white-card">
+          <div class="insight-banner-img">
+            <img src="assets/images/the-invisible-pl.jpg" alt="Data Foundations" />
+            <span class="insight-category-badge">DATA ENGINEERING</span>
+          </div>
+          <div class="insight-white-body">
+            <h3>Why Strong Data Foundations Matter More Than Ever for AI</h3>
+            <p>AI systems depend on reliable, accessible and trusted data. Explore how modern data engineering creates the foundation for scalable enterprise intelligence.</p>
+            <a href="#contact" style="color: var(--color-primary); font-weight: 600;" onclick="openContactModal()">Read More &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="insight-white-card">
+          <div class="insight-banner-img">
+            <img src="assets/images/FB.webp" alt="Intelligent Finance" />
+            <span class="insight-category-badge">FINANCE</span>
+          </div>
+          <div class="insight-white-body">
+            <h3>The Rise of Intelligent Finance Operations</h3>
+            <p>How AI and data can transform reconciliation, settlement, cash forecasting and financial decision-making.</p>
+            <a href="#contact" style="color: var(--color-primary); font-weight: 600;" onclick="openContactModal()">Read More &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Article 4 -->
+        <div class="insight-white-card">
+          <div class="insight-banner-img">
+            <img src="assets/images/Auto.webp" alt="Edge PKI" />
+            <span class="insight-category-badge">EDGE PKI</span>
+          </div>
+          <div class="insight-white-body">
+            <h3>Digital Trust at the Edge: Why Device Identity Matters</h3>
+            <p>As connected systems expand, trusted device identity becomes fundamental to secure communication, authentication and resilient digital infrastructure.</p>
+            <a href="#contact" style="color: var(--color-primary); font-weight: 600;" onclick="openContactModal()">Read More &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Article 5 -->
+        <div class="insight-white-card">
+          <div class="insight-banner-img">
+            <img src="assets/images/Semi-Government.webp" alt="Intelligent Healthcare" />
+            <span class="insight-category-badge">HEALTHCARE</span>
+          </div>
+          <div class="insight-white-body">
+            <h3>Building the Data Foundation for Intelligent Healthcare</h3>
+            <p>How connected healthcare data and AI can create better operational visibility and support more intelligent decision-making.</p>
+            <a href="#contact" style="color: var(--color-primary); font-weight: 600;" onclick="openContactModal()">Read More &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       12. ABOUT IGVP (DARK THEME)
+       ===================================================== -->
+  <section class="about-igvp-section" id="about">
+    <div class="container">
+      <div class="about-igvp-grid">
+        <div>
+          <span class="badge-tag">About IGVP</span>
+          <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 20px;">We Build <strong>What Comes Next.</strong></h2>
+          <p style="color: #CBD5E1; font-size: 16px; line-height: 1.8; margin-bottom: 18px;">
+            <strong>IGVP &mdash; Indigenous Global Venture Partners Inc.</strong> is building a technology and venture ecosystem at the intersection of artificial intelligence, data, digital trust and industry innovation.
+          </p>
+          <p style="color: #94A3B8; font-size: 15.5px; line-height: 1.75; margin-bottom: 24px;">
+            Our work spans AI/ML, data engineering, healthcare technology, finance technology, Edge PKI, cybersecurity, consulting and intelligent digital platforms. We combine technology expertise with a product and venture mindset to transform complex problems into secure, scalable and intelligent solutions.
+          </p>
+          <a href="#contact" class="btn-primary" onclick="openContactModal()">Learn More About IGVP &rarr;</a>
+        </div>
+
+        <div class="about-vision-mission-cards">
+          <!-- Vision -->
+          <div class="vm-card">
+            <h4>Our Vision</h4>
+            <p>To build technology ecosystems that create lasting global impact.</p>
+          </div>
+
+          <!-- Mission -->
+          <div class="vm-card">
+            <h4>Our Mission</h4>
+            <p>To transform complex problems into intelligent, secure and scalable solutions that empower organizations and people.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       13. FINAL CTA BANNER
+       ===================================================== -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-box">
+        <h2>Let's Build <strong>What's Next.</strong></h2>
+        <p>
+          Technology is changing faster than ever. The opportunity is not simply to adopt new technology &mdash; it is to build intelligent systems that create lasting value. Let's turn your next challenge into an intelligent solution.
+        </p>
+        <div class="final-cta-actions">
+          <button class="btn-primary" onclick="openContactModal()">Start a Conversation &rarr;</button>
+          <a href="#platforms" class="btn-outline">Explore IGVP &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       14. LEAD GENERATION SECTION ("LET'S TALK") (DARK THEME)
+       ===================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info-col">
+          <span class="badge-tag">Let's Talk</span>
+          <h2>Have a Challenge? <br /><span class="text-gradient">Let's Build the Solution.</span></h2>
+          <p class="contact-desc">
+            Whether you're modernizing your data foundation, exploring AI, transforming finance operations, securing connected systems or building a new digital platform, IGVP can help turn complex challenges into practical technology solutions.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="display: flex; gap: 14px; align-items: flex-start;">
+              <div style="color: #16D9F2; font-weight: 700; font-size: 15px;">01 &mdash;</div>
+              <p style="color: #E2E8F0; font-size: 15px;"><strong>DISCOVER:</strong> Identify the problem, opportunity and technology path.</p>
+            </div>
+            <div style="display: flex; gap: 14px; align-items: flex-start;">
+              <div style="color: #16D9F2; font-weight: 700; font-size: 15px;">02 &mdash;</div>
+              <p style="color: #E2E8F0; font-size: 15px;"><strong>DESIGN:</strong> Create the right architecture, data foundation and solution strategy.</p>
+            </div>
+            <div style="display: flex; gap: 14px; align-items: flex-start;">
+              <div style="color: #16D9F2; font-weight: 700; font-size: 15px;">03 &mdash;</div>
+              <p style="color: #E2E8F0; font-size: 15px;"><strong>BUILD:</strong> Move from concept to production-ready technology.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3>Start a Conversation With IGVP</h3>
+          <p class="form-sub">Please share your details, and our technology leadership team will get in touch promptly.</p>
+
+          <form id="contactForm" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="formFullName">Full Name *</label>
+              <input type="text" id="formFullName" class="form-control" placeholder="e.g. Sarah Jenkins" required />
+            </div>
+
+            <div class="form-group">
+              <label for="formEmail">Business Email *</label>
+              <input type="email" id="formEmail" class="form-control" placeholder="name@company.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="formCompany">Organization *</label>
+              <input type="text" id="formCompany" class="form-control" placeholder="e.g. Enterprise Group" required />
+            </div>
+
+            <div class="form-group">
+              <label for="formPhone">Contact Number</label>
+              <input type="tel" id="formPhone" class="form-control" placeholder="+1 (555) 000-0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="formArea">Area of Interest</label>
+              <select id="formArea" class="form-control" style="background: #0b1424; color: #FFF; cursor: pointer;">
+                <option value="">Select an area of interest...</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Finance">Finance</option>
+                <option value="Data Engineering">Data Engineering</option>
+                <option value="AI / ML">AI / ML</option>
+                <option value="Edge PKI & Cybersecurity">Edge PKI &amp; Cybersecurity</option>
+                <option value="Consulting">Consulting</option>
+                <option value="IGVP AI">IGVP AI</option>
+                <option value="IGVP Institute">IGVP Institute</option>
+                <option value="IGVP Finance">IGVP Finance</option>
+                <option value="BharatSheild AI">BharatSheild AI</option>
+                <option value="VivoQuest">VivoQuest</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage">Message *</label>
+              <textarea id="formMessage" class="form-control" placeholder="Tell us about your challenge, platform, or technology initiative..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">Let's Talk &rarr;</button>
+
+            <div class="form-toast" id="formToast">
+              &#10003; Thank you! Your message has been received. Our team will contact you shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       15. CORPORATE FOOTER (DARK THEME)
+       ===================================================== -->
+  <footer class="site-footer">
+    <div class="footer-width-fixer">
+      <!-- Row 1: Top 4 Navigation Columns -->
+      <div class="footer-nav-4col">
+        <!-- Col 1: Quick Links -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Quick Links</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="careers.html">Life at IGVP</a></li>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="insights.html">Case Studies</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">Services</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html#core-platform">PhAI - GenAI AI and ML</a></li>
+            <li><a href="index.html#solutions">Data Engineering &amp; Analytics</a></li>
+            <li><a href="index.html#solutions">Data Governance</a></li>
+            <li><a href="index.html#solutions">ESG Navigator</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: PhAI / IGVP AI -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">PhAI</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="index.html#core-platform">Multi Agent Ecosystem</a></li>
+            <li><a href="index.html#core-platform">Agentic AI</a></li>
+            <li><a href="index.html#solutions">Accelerated ML Solutions</a></li>
+            <li><a href="index.html#solutions">ML Ops</a></li>
+            <li><a href="index.html#solutions">Responsible AI</a></li>
+            <li><a href="index.html#solutions">AI Maturity Assessment</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: About Us -->
+        <div class="footer-nav-col">
+          <h3 class="footer-nav-title">About Us</h3>
+          <div class="footer-nav-divider"></div>
+          <ul class="footer-nav-list">
+            <li><a href="about.html#overview">Overview</a></li>
+            <li><a href="about.html#story">Story Behind the Name</a></li>
+            <li><a href="about.html#purpose">Our Values</a></li>
+            <li><a href="about.html#leadership">Our Leadership</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Row 2: Middle 4 Columns (Brand, US, India, For Business) -->
+      <div class="footer-middle-4col">
+        <!-- Col 1: Brand / Logo -->
+        <div class="footer-mid-brand">
+          <a href="index.html">
+            <img src="assets/images/igvp-logo.png" alt="IGVP Logo" />
+          </a>
+        </div>
+
+        <!-- Col 2: US Office -->
+        <div class="footer-mid-loc">
+          <div class="footer-flag-box">
+            <img src="assets/images/US-flag.svg" alt="US flag" class="footer-flag-img" />
+            <span class="footer-flag-title">US</span>
+          </div>
+          <p class="footer-address-text">
+            Suite 1200, 750 West Pender St, Delaware / Vancouver, USA
+          </p>
+        </div>
+
+        <!-- Col 3: India Office -->
+        <div class="footer-mid-loc">
+          <div class="footer-flag-box">
+            <img src="assets/images/India-flag.svg" alt="India flag" class="footer-flag-img" />
+            <span class="footer-flag-title">India</span>
+          </div>
+          <p class="footer-address-text">
+            2nd Floor, iSprout GreyStone, Veerbhadra Nagar, Baner, Pune – 411045
+          </p>
+        </div>
+
+        <!-- Col 4: For Business -->
+        <div class="footer-mid-business">
+          <h4 class="footer-business-title">For Business</h4>
+          <a href="mailto:info@igvp.ai" class="footer-contact-link">
+            <span class="footer-contact-icon">
+              <img src="assets/images/email-icon-cyan.svg" alt="Email" />
+            </span>
+            <span>info@igvp.ai</span>
+          </a>
+          <a href="tel:+16046012000" class="footer-contact-link">
+            <span class="footer-contact-icon">
+              <img src="assets/images/phone-icon-cyan.svg" alt="Phone" />
+            </span>
+            <span>+1 (604) 601-2000</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Row 3: Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <!-- Left: Copyright & Legal -->
+        <div class="footer-bottom-left">
+          <div class="footer-copy-text">&copy; 2026 IGVP</div>
+          <div class="footer-legal-links">
+            <a href="about.html">Privacy Policy</a>
+            <span class="footer-legal-sep">|</span>
+            <a href="about.html">Terms of Use</a>
+          </div>
+        </div>
+
+        <!-- Center: Headline & Subtitle -->
+        <div class="footer-bottom-center">
+          <h2 class="footer-slogan-title">Data to Decisions — Delivered</h2>
+          <div class="footer-designer-sub">
+            <a href="about.html">Designed by: Kuldip Mahesh Godase</a>
+          </div>
+        </div>
+
+        <!-- Right: Social Links -->
+        <div class="footer-bottom-right">
+          <span class="footer-follow-label">Follow Us:</span>
+          <div class="footer-social-icons">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 21 21" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9037 18.918H15.4893V12.9387C15.4893 11.2985 14.7664 10.3833 13.4698 10.3833C12.0588 10.3833 11.2214 11.3369 11.2214 12.9387V18.918H7.8071V7.8121H11.2214V9.06101C11.2214 9.06101 12.2927 7.17973 14.7066 7.17973C17.1214 7.17973 18.9037 8.65453 18.9037 11.7061V18.918ZM3.91648 6.03594C2.765 6.03594 1.83203 5.09456 1.83203 3.93357C1.83203 2.77343 2.765 1.83203 3.91648 1.83203C5.06711 1.83203 6.00007 2.77343 6.00007 3.93357C6.00092 5.09456 5.06711 6.03594 3.91648 6.03594ZM1.83203 18.918H6.09994V7.8121H1.83203V18.918Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 21 21" fill="none">
+                <path d="M14.2041 2.75C16.4768 2.75 18.3193 4.59256 18.3193 6.86523V15.1357C18.3193 17.4084 16.4768 19.251 14.2041 19.251H5.94727C3.67459 19.251 1.83203 17.4084 1.83203 15.1357V6.86523C1.83203 4.59256 3.67459 2.75 5.94727 2.75H14.2041ZM10.0771 6.875C7.80081 6.875 5.95524 8.7218 5.95508 11C5.95508 13.2783 7.80071 15.126 10.0771 15.126C12.3535 15.1259 14.1992 13.2783 14.1992 11C14.1991 8.72187 12.3534 6.87511 10.0771 6.875ZM15.0234 4.40234C14.113 4.40251 13.375 5.1415 13.375 6.05273C13.3751 6.96385 14.1131 7.70198 15.0234 7.70215C15.9339 7.70215 16.6727 6.96395 16.6729 6.05273C16.6729 5.1414 15.934 4.40234 15.0234 4.40234Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 24 17" fill="none">
+                <path d="M22.9584 2.58149C22.826 2.08212 22.5647 1.62634 22.2009 1.25981C21.837 0.893287 21.3833 0.628883 20.8852 0.493084C19.0575 -1.07263e-07 11.725 0 11.725 0C11.725 0 4.39241 -2.14526e-07 2.56377 0.493984C2.06579 0.629705 1.61217 0.893974 1.24832 1.26033C0.884479 1.62669 0.623182 2.08228 0.490591 2.58149C0.152619 4.45729 -0.0114038 6.36034 0.000616121 8.26636C-0.011409 10.1724 0.152614 12.0754 0.490591 13.9512C0.623837 14.4465 0.885776 14.8977 1.24977 15.2589C1.61376 15.62 2.06682 15.8782 2.56287 16.0072C4.39151 16.5012 11.7241 16.5012 11.7241 16.5012C11.7241 16.5012 19.0566 16.5012 20.8852 16.0072C21.3813 15.8784 21.8345 15.6204 22.1987 15.2594C22.5628 14.8985 22.825 14.4474 22.9584 13.9521C23.2964 12.0763 23.4604 10.1733 23.4484 8.26726C23.4604 6.36124 23.2964 4.45729 22.9584 2.58149ZM9.32632 11.7593V4.77788L15.4551 8.26726L9.32632 11.7566V11.7593Z" fill="#FBFBFB"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- POPUP CONTACT MODAL -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeContactModal()">&times;</button>
+      <h3 style="font-size: 24px; margin-bottom: 8px;">Start a Conversation With IGVP</h3>
+      <p style="font-size: 14px; color: #94A3B8; margin-bottom: 24px;">Share your requirements and our technology leadership team will get in touch promptly.</p>
+
+      <form onsubmit="handleModalSubmit(event)">
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" class="form-control" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label>Business Email *</label>
+          <input type="email" class="form-control" placeholder="name@company.com" required />
+        </div>
+        <div class="form-group">
+          <label>Organization *</label>
+          <input type="text" class="form-control" placeholder="Company name" required />
+        </div>
+        <div class="form-group">
+          <label>Area of Interest</label>
+          <select class="form-control" style="background: #0b1424; color: #FFF; cursor: pointer;">
+            <option value="">Select an area of interest...</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Finance">Finance</option>
+            <option value="Data Engineering">Data Engineering</option>
+            <option value="AI / ML">AI / ML</option>
+            <option value="Edge PKI & Cybersecurity">Edge PKI &amp; Cybersecurity</option>
+            <option value="Consulting">Consulting</option>
+            <option value="IGVP AI">IGVP AI</option>
+            <option value="IGVP Institute">IGVP Institute</option>
+            <option value="IGVP Finance">IGVP Finance</option>
+            <option value="BharatSheild AI">BharatSheild AI</option>
+            <option value="VivoQuest">VivoQuest</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; border-radius: 10px; margin-top: 8px;">Let's Talk &rarr;</button>
+        <div class="form-toast" id="modalToast">
+          &#10003; Request submitted! We will be in touch shortly.
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
